@@ -33,7 +33,9 @@ def main():
         if key_list[pg.K_LEFT]:
             kk_rct.move_ip(-1, 0)
         if key_list[pg.K_RIGHT]:
-            kk_rct.move_ip(+1, 0)
+            kk_rct.move_ip(+2, 0)
+        else:
+            kk_rct.move_ip(-1, 0)
         screen.blit(kk_ing, kk_rct) #kk_imgをkk_rectの設定にしたがって貼り付ける
         pg.display.update()
         tmr += 1        
