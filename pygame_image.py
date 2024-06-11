@@ -24,7 +24,7 @@ def main():
         screen.blit(kk_ing, kk_rct) #kk_imgをkk_rectの設定にしたがって貼り付ける
         pg.display.update()
         tmr += 1        
-        clock.tick(10)
+        clock.tick(200)
 
 
 if __name__ == "__main__":
